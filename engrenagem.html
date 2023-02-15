@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .meu_balao
+        .minha_engrenagem
         {
             position: absolute;
             top: 0px;
             left: 0px;
-            animation: anima_balao 10s infinite alternate;
-
+            animation: engrena 1s infinite ease-out;
 
 
 
         }
-        @keyframes anima_balao
+        @keyframes engrena
         {
-            0%   { left: 0px; }
-            50%  { left: 100px;  top: 80px; }
-            100% { left: 150px;  top: 0px;  }
+            0%   { rotate: 0deg; }
+            
+            100% { rotate: 360deg;  }
         }
+
 
 
 
@@ -30,11 +30,9 @@
 
 
 
-</head> 
-
+</head>
 <body>
-    <img src="balao.gif" class="meu_balao">
-    
+    <img src="engrenagem.png" class="minha_engrenagem">
 
 </body>
 </html>
